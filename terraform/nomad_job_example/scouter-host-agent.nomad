@@ -9,8 +9,7 @@ locals {
 }
 
 job "scouter-host-agent" {
-  datacenters = ["hashistack"]
-  namespace = "scouter"
+  datacenters = ["dc1"]
 
   type = "system"
 

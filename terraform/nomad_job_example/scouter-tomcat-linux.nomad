@@ -14,8 +14,7 @@ locals {
 }
 
 job "tomcat-scouter-linux" {
-  datacenters = ["hashistack"]
-  namespace = "scouter"
+  datacenters = ["dc1"]
 
   type = "service"
 
@@ -41,8 +40,8 @@ job "tomcat-scouter-linux" {
           port "stop" {}
           port "jmx" {}
         }
-        cpu = 500
-        memory = 512
+        cpu = 200
+        memory = 256
       }
       env {
         APP_VERSION = "0.1"

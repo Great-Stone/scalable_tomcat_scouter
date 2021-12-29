@@ -20,7 +20,7 @@ job "scouter-collector" {
   }
   constraint {
     attribute = "${attr.unique.hostname}"
-    value     = "ip-10-0-10-146"
+    value     = "ip-10-0-10-119"
   }
 
   group "collector" {
