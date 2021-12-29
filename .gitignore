@@ -1,0 +1,12 @@
+**/.terraform
+**/terraform.tfvars
+**/.ssh
+**/*.tfstate
+**/*.tfstate.backup
+**/env.sh
+**/env.cmd
+**/.kube
+**/.terraform.tfstate.lock.info
+**/.terraform.lock.hcl
+**/key.txt
+**/.DS_Store
